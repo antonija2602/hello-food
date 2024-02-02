@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html
+    lang="en"
+    data-bs-theme="dark">
+    <head>
+        <!-- required meta tags -->
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+
+        <!-- primary meta tags -->
+        <title>Hello Food! - Deliver and Enjoy</title>
+        <meta
+            name="title"
+            content="Hello Food! - Deliver and Enjoy" />
+        <meta
+            name="description"
+            content="Delivery app made for making the life easier by AZ" />
+
+        <!-- font awsome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+        <!-- google font -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap" />
+
+        <!-- bootstrap css -->
+        <link
+            rel="stylesheet"
+            href="bootstrap.css" />
+
+        <!-- style.css -->
+        <link
+            rel="stylesheet"
+            href="style.css" />
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-md fixed-top px-3 bg-dark-subtle">
+                <div class="container py-2 py-md-0">
+                    <a
+                        class="navbar-brand fw-bold fs-5 link-primary link-opacity-75-hover d-flex gap-2"
+                        href="#">
+                        <img
+                            style="max-width: 1.3rem"
+                            class="img-fluid"
+                            src="img/food-mun-thai-svgrepo-com.svg"
+                            alt="food on a plate" />
+                        Hello Food!</a
+                    >
+
+                    <!-- toggle button -->
+                    <a
+                        class="navbar-toggler fs-3 text-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <svg
+                            class="navbar-toggler-icon fs-5"
+                            aria-hidden="true"></svg>
+                    </a>
+
+                    <!-- navbar links -->
+                    <div
+                        class="collapse navbar-collapse p-1 m-1 rounded"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto my-1 my-lg-0 text-center rounded fs-5 d-flex align-items-center">
+                            <li class="nav-item px-2">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item px-2">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    >How it works</a
+                                >
+                            </li>
+                            <li class="nav-item px-2">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    >Features</a
+                                >
+                            </li>
+                            <li class="nav-item px-2">
+                                <a
+                                    class="nav-link link-primary link-opacity-75-hove"
+                                    href="#"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar end -->
+
+            <!-- hero -->
+            <section
+                class="hero-section vh-100 d-lg-grid align-content-center"
+                id="hero-section">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-grid align-content-center text-lg-start">
+                            <h1 class="fw-bold">Delicious Delivered: Discover a World of Flavors at Your Doorstep</h1>
+
+                            <p class="mt-4 fs-5">
+                                Discover a wide range of delectable dishes from varius cuisines. From appetizers and main courses to desserts and beverages, we have something to satisfy every craving.
+                            </p>
+                            <div class="d-grid d-sm-block">
+                                <button class="btn px-5 btn-lg text-nowrap mt-5 btn-primary">Order Now</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 pt-5 d-grid align-content-center">
+                            <div class="section-img px-md-5 px-lg-0">
+                                <img
+                                    class="img-fluid px-5 px-lg-0"
+                                    src="img/hero2.png"
+                                    alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!--==================== MAIN ====================-->
+        <main>
+            <!-- featured section -->
+            <section
+                class="featured-section"
+                id="features">
+                <div class="container">
+                    <h2 class="fw-bold text-center pb-4">Featured Food Items</h2>
+                </div>
+                <div class="container">
+                    <div class="row g-5 justify-content-center">
+                        <div class="col-12 col-lg-3">
+                            <!-- card 1 -->
+                            <div class="card border-0 shadow pb-2 h-100">
+                                <img
+                                    class="card-img-top pb-2"
+                                    src="img/burger.jpg"
+                                    alt="burger" />
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <h4 class="card-title fw-bold flex-grow-1">Sizzling Steakhouse Burger</h4>
+                                    <p class="card-text">Succulent beef patty topped with melted cheddar cheese, caramelized onions, crispy bacon and tangy barbecue sauce</p>
+
+                                    <div class="d-grid d-sm-block">
+                                        <button class="btn text-nowrap px-5 mt-3 btn-primary">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <!-- card 2 -->
+                            <div class="card border-0 shadow pb-2 h-100">
+                                <img
+                                    class="card-img-top pb-2"
+                                    src="img/pizza.jpg"
+                                    alt="pizza" />
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <h4 class="card-title fw-bold flex-grow-1">Mouthwatering Margherita pizza</h4>
+                                    <p class="card-text">Thin crust pizza topped with ripe tomatoes, fresh mozzarella cheese, fragrant basil leaves and a drizzle of extra virgin olive oil</p>
+
+                                    <div class="d-grid d-sm-block">
+                                        <button class="btn px-5 text-nowrap mt-3 btn-primary">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <!-- card 3 -->
+                            <div class="card border-0 shadow py-2 h-100">
+                                <img
+                                    class="card-img-top pb-2"
+                                    src="img/sushi.jpg"
+                                    alt="sushi" />
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <h4 class="card-title fw-bold flex-grow-1">Savory Sushi Platter</h4>
+                                    <p class="card-text">Dive into and exquisite assortment of sushi rolls, including California rolls, spicy tuna rolls and salmon avocado rolls</p>
+                                    <div class="d-grid d-sm-block">
+                                        <button class="btn px-5 text-nowrap mt-3 btn-primary">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <!-- card 4 -->
+                            <div class="card border-0 shadow py-2 h-100">
+                                <img
+                                    class="card-img-top pb-2"
+                                    src="img/lavacake.jpg"
+                                    alt="lavacake" />
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <h4 class="card-title fw-bold">Decadent Chocolate Lava Cake</h4>
+                                    <p class="card-text">Indulge in a warm and gooey chocolate cake with a molten chocolate center, served with a scoop of velvety vanilla ice cream</p>
+
+                                    <div class="d-grid d-sm-block">
+                                        <button class="btn px-5 text-nowrap mt-3 btn-primary">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- how it works section -->
+            <section
+                class="how-it-works"
+                id="how-it-works">
+                <div class="container pt-5">
+                    <h2 class="fw-bold text-center">How <span class="text-primary">Hello Food!</span> works</h2>
+
+                    <div class="container py-4">
+                        <div class="row g-5">
+                            <div class="col-12 col-lg-6">
+                                <div class="d-flex section-how-card flex-column shadow p-5 rounded">
+                                    <span><i class="fa-solid fa-magnifying-glass icon rounded-circle mb-4 bg-primary p-2"></i></span>
+                                    <h3 class="fw-bold how-it-works-title mb-3">Browse our extensive menu</h3>
+                                    <p class="how-it-works-text">
+                                        Discover a wide range of delectable dishes from various cuisines. From appetizers and main courses to desserts and beverages, we have something to satisfy every
+                                        craving.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="d-flex section-how-card flex-column shadow p-5 rounded">
+                                    <span><i class="fa-solid fa-bowl-food icon rounded-circle mb-4 bg-primary p-2"></i></span>
+                                    <h3 class="fw-bold how-it-works-title mb-3">Place your order</h3>
+                                    <p class="how-it-works-text">
+                                        Discover a wide range of delectable dishes from various cuisines. From appetizers and main courses to desserts and beverages, we have something to satisfy every
+                                        craving.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="d-flex section-how-card flex-column shadow p-5 rounded">
+                                    <span><i class="fa-solid fa-location-dot icon rounded-circle mb-4 bg-primary p-2"></i></span>
+
+                                    <h3 class="fw-bold how-it-works-title mb-3">Track your delivery</h3>
+                                    <p class="how-it-works-text">
+                                        Sit back and relax as our dedicated delivery professionals swiftly bring your order to your location. Monitor the progress of your delivery in real-time and
+                                        know exactly when to expect your food.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="d-flex section-how-card flex-column shadow p-5 rounded h-100">
+                                    <span><i class="fa-regular fa-face-laugh icon rounded-circle mb-4 bg-primary p-2"></i></span>
+                                    <h3 class="fw-bold how-it-works-title mb-3">Enjoy your meal</h3>
+                                    <p class="how-it-works-text">
+                                        Once your order arrives, indulge in a flavorful dining experience from the comfort of your own home. Our commitment to quality ensures that every bite is a
+                                        delight.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- testimonials section -->
+            <section class="testimonials">
+                <div class="container">
+                    <div
+                        id="carouselExample"
+                        class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container py-5">
+                                    <div class="row">
+                                        <div class="col-12 text-center d-flex justify-content-center">
+                                            <div class="testimonial-card d-flex flex-column align-items-center pt-4">
+                                                <img
+                                                    width="150px"
+                                                    class="rounded-circle pb-4"
+                                                    src="img/sarah.jpg"
+                                                    alt="sarah" />
+                                                <p class="testimonial-text py-2 col-8">
+                                                    Hello Food has transformed the way I enjoy meals. The convenience of ordering my favorite dishes from local restaurants and having them delivered to
+                                                    my doorstep is simply fantastic.
+                                                </p>
+                                                <h3 class="testimonial-name">Sarah, Montana</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container py-5">
+                                    <div class="row">
+                                        <div class="col-12 text-center d-flex justify-content-center">
+                                            <div class="testimonial-card d-flex flex-column align-items-center pt-4">
+                                                <img
+                                                    width="150px"
+                                                    class="rounded-circle pb-4"
+                                                    src="img/john.jpg"
+                                                    alt="john" />
+                                                <p class="testimonial-text py-2 col-8">
+                                                    Hello Food has transformed the way I enjoy meals. The convenience of ordering my favorite dishes from local restaurants and having them delivered to
+                                                    my doorstep is simply fantastic.
+                                                </p>
+                                                <h3 class="testimonial-name">John, Texas</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--==================== FOOTER ====================-->
+        <footer>
+            <div class="container footer p-5">
+                <div class="row g-4 g-md-0">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="col">
+                            <h3 class="fw-bold">Visit us</h3>
+                            <div class="d-flex flex-column pt-2">
+                                <p class="">
+                                    1234 Food Lane, Cityville, <br />
+                                    State, Country
+                                </p>
+                                <a
+                                    href="mailto:info@foodiexpress.com"
+                                    class="link-body-emphasis footer__link"
+                                    >info@foodieexpress.com</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-md-center">
+                        <div class="col">
+                            <h3 class="fw-bold">Our Links</h3>
+                            <div class="d-flex flex-column pt-2">
+                                <a
+                                    href="#header"
+                                    class="link-body-emphasis footer__link"
+                                    >Home</a
+                                >
+                                <a
+                                    href="#how-it-works"
+                                    class="link-body-emphasis footer__link"
+                                    >How it works</a
+                                >
+                                <a
+                                    href="#features"
+                                    class="link-body-emphasis footer__link"
+                                    >Features</a
+                                >
+                                <a
+                                    href="#contact"
+                                    class="link-body-emphasis footer__link"
+                                    >Contact</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-lg-end">
+                        <div class="col">
+                            <h3 class="fw-bold">Social Media</h3>
+                            <div class="d-flex pt-2">
+                                <a
+                                    href="#"
+                                    class="pe-3">
+                                    <i
+                                        name="logo-facebook"
+                                        class="fa-brands fa-facebook-f icon rounded-circle fs-4"></i>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="px-3"
+                                    ><i
+                                        name="logo-instagram"
+                                        class="fa-brands fa-instagram icon rounded-circle fs-4"></i
+                                ></a>
+                                <a
+                                    href="#"
+                                    class="px-3"
+                                    ><i
+                                        name="logo-github"
+                                        class="fa-brands fa-github icon rounded-circle fs-4"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">2024 Created by AZ</p>
+        </footer>
+    </body>
+</html>
